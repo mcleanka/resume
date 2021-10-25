@@ -1,5 +1,14 @@
 import React from 'react'
 
+import image1 from '../assets/images/p-1.jpg';
+import image2 from '../assets/images/p-2.jpg';
+import image3 from '../assets/images/p-3.jpg';
+import image4 from '../assets/images/p-4.jpg';
+import image5 from '../assets/images/p-5.jpg';
+import image6 from '../assets/images/p-6.jpg';
+import image7 from '../assets/images/p-7.jpg';
+import image8 from '../assets/images/p-8.jpg';
+
 function Portfolio() {
 	return (
 		<>
@@ -39,12 +48,12 @@ function Portfolio() {
 						<div className="col-sm-12">
 							<div className="isotope_items row wow fadeInUp" data-wow-delay="0.4s">
 								<a
-									href="assets/images/p-1.jpg"
+									href={image1}
 									className="col-md-4 col-sm-4 col-xs-6 single_item art-direction"
-									data-source="assets/images/p-1.jpg"
+									data-source={image1}
 									title="Rock"
 								>
-									<img src="assets/images/p-1.jpg" alt="Rock" />
+									<img src={image1} alt="Rock" />
 									<div className="single_item_content">
 										<span>Art Direction</span>
 										<h6>Rock</h6>
@@ -52,12 +61,12 @@ function Portfolio() {
 								</a>
 
 								<a
-									href="assets/images/p-2.jpg"
+									href={image2}
 									className="col-md-4 col-sm-4 col-xs-6 single_item branding"
-									data-source="assets/images/p-2.jpg"
+									data-source={image2}
 									title="In Time"
 								>
-									<img src="assets/images/p-2.jpg" alt="In Time" />
+									<img src={image2} alt="In Time" />
 									<div className="single_item_content">
 										<span>Branding</span>
 										<h6>In Time</h6>
@@ -65,12 +74,12 @@ function Portfolio() {
 								</a>
 
 								<a
-									href="assets/images/p-3.jpg"
+									href={image3}
 									className="col-md-4 col-sm-4 col-xs-6 single_item design"
-									data-source="assets/images/p-3.jpg"
+									data-source={image3}
 									title="Mockup"
 								>
-									<img src="assets/images/p-3.jpg" alt="Mockup" />
+									<img src={image3} alt="Mockup" />
 									<div className="single_item_content">
 										<span>Design</span>
 										<h6>Mockup</h6>
@@ -78,12 +87,12 @@ function Portfolio() {
 								</a>
 
 								<a
-									href="assets/images/p-4.jpg"
+									href={image4}
 									className="col-md-4 col-sm-4 col-xs-6 single_item web"
-									data-source="assets/images/p-4.jpg"
+									data-source={image4}
 									title="Treasure"
 								>
-									<img src="assets/images/p-4.jpg" alt="Treasure" />
+									<img src={image4} alt="Treasure" />
 									<div className="single_item_content">
 										<span>Web</span>
 										<h6>Treasure</h6>
@@ -91,12 +100,12 @@ function Portfolio() {
 								</a>
 
 								<a
-									href="assets/images/p-5.jpg"
+									href={image5}
 									className="col-md-4 col-sm-4 col-xs-6 single_item art-direction"
-									data-source="assets/images/p-5.jpg"
+									data-source={image5}
 									title="Daily Note"
 								>
-									<img src="assets/images/p-5.jpg" alt="Daily Note" />
+									<img src={image5} alt="Daily Note" />
 									<div className="single_item_content">
 										<span>Art Direction</span>
 										<h6>Daily Note</h6>
@@ -104,12 +113,12 @@ function Portfolio() {
 								</a>
 
 								<a
-									href="assets/images/p-6.jpg"
+									href={image6}
 									className="col-md-4 col-sm-4 col-xs-6 single_item branding"
-									data-source="assets/images/p-6.jpg"
+									data-source={image6}
 									title="Handcraft"
 								>
-									<img src="assets/images/p-6.jpg" alt="Handcraft" />
+									<img src={image6} alt="Handcraft" />
 									<div className="single_item_content">
 										<span>Branding</span>
 										<h6>Handcraft</h6>
@@ -117,12 +126,12 @@ function Portfolio() {
 								</a>
 
 								<a
-									href="assets/images/p-7.jpg"
+									href={image7}
 									className="col-md-4 col-sm-4 col-xs-6 single_item design"
-									data-source="assets/images/p-7.jpg"
+									data-source={image7}
 									title="Pencil"
 								>
-									<img src="assets/images/p-7.jpg" alt="Pencil" />
+									<img src={image7} alt="Pencil" />
 									<div className="single_item_content">
 										<span>Design</span>
 										<h6>Pencil</h6>
@@ -130,12 +139,12 @@ function Portfolio() {
 								</a>
 
 								<a
-									href="assets/images/p-8.jpg"
+									href={image8}
 									className="col-md-4 col-sm-4 col-xs-6 single_item web"
-									data-source="assets/images/p-8.jpg"
+									data-source={image8}
 									title="Focus"
 								>
-									<img src="assets/images/p-8.jpg" alt="Focus" />
+									<img src={image8} alt="Focus" />
 									<div className="single_item_content">
 										<span>Web</span>
 										<h6>Focus</h6>
