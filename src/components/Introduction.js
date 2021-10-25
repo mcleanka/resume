@@ -1,4 +1,5 @@
 import React from 'react'
+import man from '../assets/images/man-01.png';
 
 function Introduction() {
 	return (
@@ -46,13 +47,11 @@ function Introduction() {
 						</div>
 						<div className="col-lg-5">
 							<div className="about_me_image wow fadeInUp" data-wow-delay="0.2s">
-								<img
-									width="508"
-									height="729"
-									src="assets/images/man-01.png"
+								<img width={508}
+									height={729}
+									src={man}
 									className="attachment-full size-full"
-									alt="about me image"
-								/>
+									alt="about me" />
 							</div>
 						</div>
 					</div>

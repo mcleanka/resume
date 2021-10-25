@@ -1,4 +1,5 @@
 import React from 'react'
+import man01 from '../assets/images/me-01-alt.png'
 
 function About() {
 	return (
@@ -21,7 +22,7 @@ function About() {
 							className="col-lg-5 text-center wow fadeInLeft"
 							data-wow-delay="0.2s"
 						>
-							<img src="assets/images/me-01-alt.png" title="me-01" alt="me-01" />
+							<img src={man01} title="me-01" alt="me-01" />
 						</div>
 						<div className="col-lg-7 my-auto wow fadeInRight" data-wow-delay="0.2s">
 							<h3><strong>Hi There</strong></h3>
