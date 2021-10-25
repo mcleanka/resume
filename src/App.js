@@ -12,6 +12,7 @@ import React from "react";
 import Statistics from "./components/Statistics";
 import Testimonial from "./components/Testimonial";
 import Partners from "./components/Partners";
+import Pricing from "./components/Princing";
 
 function App() {
   return (
@@ -20,12 +21,13 @@ function App() {
       <Introduction />
       <Services />
       <About />
-      {/* <Skills /> */}
       <Portfolio />
-      <Blog />
+      <Skills />
+      <Pricing />
       <Statistics />
       <Testimonial />
       <Partners />
+      <Blog />
       <Contact />
       <Footer />
       <BackToTop />

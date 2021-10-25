@@ -7,7 +7,7 @@ function Skills() {
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-lg-5 my-auto wow fadeInUp" data-wow-delay="0.2s">
-							<div className="section-title mb-lg-0 mb-md-5" style="text-align: left">
+							<div className="section-title mb-lg-0 mb-md-5" style={{ textAlign: "left" }}>
 								<span>i,m expert on</span>
 								<h2>Let,s Work Together<span></span></h2>
 								<p>
@@ -16,8 +16,8 @@ function Skills() {
 									ante ipsum primis in faucibus orci luctus et ultrices posuere
 									cubilia Curae
 								</p>
-								<div style="text-align: left">
-									<a className="amike-btn bordered mt-3" href="#"> Hire Me Now</a>
+								<div style={{ textAlign: "left" }}>
+									<a className="amike-btn bordered mt-3" href="javascript"> Hire Me Now</a>
 								</div>
 							</div>
 						</div>
@@ -26,7 +26,7 @@ function Skills() {
 								<p>Node JS</p>
 								<div
 									className="skill-bar wow slideInLeft animated"
-									style="width: 88%"
+									style={{ width: "88%" }}
 								>
 									<span className="skill-count">88%</span>
 								</div>
@@ -35,7 +35,7 @@ function Skills() {
 								<p>Python</p>
 								<div
 									className="skill-bar wow slideInLeft animated"
-									style="width: 81%"
+									style={{ width: "88%" }}
 								>
 									<span className="skill-count">81%</span>
 								</div>
@@ -44,7 +44,7 @@ function Skills() {
 								<p>Laravel</p>
 								<div
 									className="skill-bar wow slideInLeft animated"
-									style="width: 70%"
+									style={{ width: "70%" }}
 								>
 									<span className="skill-count">70%</span>
 								</div>
@@ -53,7 +53,7 @@ function Skills() {
 								<p>SEO</p>
 								<div
 									className="skill-bar wow slideInLeft animated"
-									style="width: 90%"
+									style={{ width: "90%" }}
 								>
 									<span className="skill-count">90%</span>
 								</div>

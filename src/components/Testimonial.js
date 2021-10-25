@@ -1,4 +1,6 @@
 import React from 'react'
+import image1 from '../assets/images/1.jpg'
+import image2 from '../assets/images/2.jpg'
 
 function Testimonial() {
 	return (
@@ -10,7 +12,7 @@ function Testimonial() {
 							<div
 								className="section-title mb-lg-0 mb-md-5 wow fadeInLeft"
 								data-wow-delay="0.2s"
-							// style="text-align: left"
+								style={{ textAlign: "left" }}
 							>
 								<span>Our Testimonials</span>
 								<h2>Happy Clients Says<span></span></h2>
@@ -24,10 +26,10 @@ function Testimonial() {
 									orci luctus et ultrices posuere
 								</p>
 								<div
-								//  style="text-align: left"
+									style={{ textAlign: "left" }}
 								>
 
-									<a className="amike-btn bordered mt-3" href="#">Learn More</a>
+									<a className="amike-btn bordered mt-3" href="javascript">Learn More</a>
 								</div>
 							</div>
 						</div>
@@ -47,7 +49,7 @@ function Testimonial() {
 									</div>
 									<div className="testimonial-avatar">
 										<div className="testimonial-avatar-img">
-											<img src="assets/images/2.jpg" alt="img" />
+											<img src={image2} alt="img" />
 										</div>
 										<div className="testimonial-avatar-info">
 											<h5>Maria Doe</h5>
@@ -69,7 +71,7 @@ function Testimonial() {
 									</div>
 									<div className="testimonial-avatar">
 										<div className="testimonial-avatar-img">
-											<img src="assets/images/1.jpg" alt="img" />
+											<img src={image1} alt="img" />
 										</div>
 										<div className="testimonial-avatar-info">
 											<h5>Emaley Mcculloch</h5>
