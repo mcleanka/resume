@@ -52,8 +52,7 @@ function About() {
 												href="https://themebing.com/cdn-cgi/l/email-protection"
 												className="__cf_email__"
 												data-cfemail="791c01181409151c391d1614181017571a1614"
-											>[email&#160;protected]</a
-											>
+											>[email&#160;protected]</a>
 										</p>
 									</div>
 								</div>

@@ -4,7 +4,10 @@ import blog1 from "../assets/images/blog-1.jpg"
 import blog2 from "../assets/images/blog-2.jpg"
 import blog3 from "../assets/images/blog-3.jpg"
 
+
+
 function Blog() {
+
 	return (
 		<>
 			<section id="blog" className="section-padding">
@@ -49,12 +52,10 @@ function Blog() {
 									</div>
 									<h5>
 										<a href="single.html"
-										>Ten Secrets You Will Not Want To Know</a
-										>
+										>Ten Secrets You Will Not Want To Know</a>
 									</h5>
 									<a href="single.html"
-									>Read More<i className="fa fa-fw fa-arrow-circle-right"></i
-									></a>
+									>Read More<i className="fa fa-fw fa-arrow-circle-right"></i></a>
 								</div>
 							</div>
 						</div>
@@ -82,14 +83,11 @@ function Blog() {
 										</ul>
 									</div>
 									<h5>
-										<a href="single.html"
-										>You&#8217;ve gotta dance like there&#8217;s nobody
-											watching</a
-										>
+										<a href="single.html">You&#8217;ve gotta dance like there&#8217;s nobody
+											watching</a>
 									</h5>
 									<a href="single.html"
-									>Read More<i className="fa fa-fw fa-arrow-circle-right"></i
-									></a>
+									>Read More<i className="fa fa-fw fa-arrow-circle-right"></i></a>
 								</div>
 							</div>
 						</div>
@@ -118,12 +116,10 @@ function Blog() {
 									</div>
 									<h5>
 										<a href="single.html"
-										>I must explain to you how all this mistaken idea</a
-										>
+										>I must explain to you how all this mistaken idea</a>
 									</h5>
 									<a href="single.html"
-									>Read More<i className="fa fa-fw fa-arrow-circle-right"></i
-									></a>
+									>Read More<i className="fa fa-fw fa-arrow-circle-right"></i></a>
 								</div>
 							</div>
 						</div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaBitbucket, FaFacebookF, FaGithub, FaSlack, FaStackOverflow, FaTwitter } from 'react-icons/fa';
 import man from '../assets/images/man-01.png';
 
 function Introduction() {
@@ -10,19 +11,34 @@ function Introduction() {
 						<div className="col-md-12 col-lg-7">
 							<ul className="list-inline social">
 								<li className="list-inline-item">
-									<a href="javascript"><i className="fa fa-facebook"></i></a>
+									<a href="javascript">
+										<FaFacebookF />
+									</a>
 								</li>
 								<li className="list-inline-item">
-									<a href="javascript"><i className="fa fa-twitter"></i></a>
+									<a href="javascript">
+										<FaSlack />
+									</a>
 								</li>
 								<li className="list-inline-item">
-									<a href="javascript"><i className="fa fa-pinterest"></i></a>
+									<a href="javascript">
+										<FaTwitter />
+									</a>
 								</li>
 								<li className="list-inline-item">
-									<a href="javascript"><i className="fa fa-instagram"></i></a>
+									<a href="javascript">
+										<FaBitbucket />
+									</a>
 								</li>
 								<li className="list-inline-item">
-									<a href="javascript"><i className="fa fa-behance"></i></a>
+									<a href="javascript">
+										<FaStackOverflow />
+									</a>
+								</li>
+								<li className="list-inline-item">
+									<a href="javascript">
+										<FaGithub />
+									</a>
 								</li>
 							</ul>
 							<div className="align-middle">

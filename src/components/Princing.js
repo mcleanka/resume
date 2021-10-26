@@ -38,8 +38,7 @@ function Pricing() {
 									<li>10 Free Domain Names</li>
 								</ul>
 								<a className="elementor-inline-editing amike-btn bordered" href="javascript"
-								>Purchase</a
-								>
+								>Purchase</a>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6">
@@ -60,8 +59,7 @@ function Pricing() {
 									<li>10 Free Domain Names</li>
 								</ul>
 								<a className="elementor-inline-editing amike-btn bordered" href="javascript"
-								>Purchase</a
-								>
+								>Purchase</a>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6">
@@ -82,8 +80,7 @@ function Pricing() {
 									<li>10 Free Domain Names</li>
 								</ul>
 								<a className="elementor-inline-editing amike-btn bordered" href="javascript"
-								>Purchase</a
-								>
+								>Purchase</a>
 							</div>
 						</div>
 					</div>

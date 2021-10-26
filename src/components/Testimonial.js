@@ -42,9 +42,7 @@ function Testimonial() {
 											a person,s written orsoken statement extollig the virtue”
 										</p>
 										<div className="testimonial-rating">
-											<i className="fa fa-star"></i><i className="fa fa-star"></i
-											><i className="fa fa-star"></i><i className="fa fa-star"></i
-											><i className="fa fa-star"></i>
+											<i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i>
 										</div>
 									</div>
 									<div className="testimonial-avatar">
@@ -64,9 +62,7 @@ function Testimonial() {
 											a person,s written orsoken statement extollig the virtue”
 										</p>
 										<div className="testimonial-rating">
-											<i className="fa fa-star"></i><i className="fa fa-star"></i
-											><i className="fa fa-star"></i><i className="fa fa-star"></i
-											><i className="fa fa-star"></i>
+											<i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i>
 										</div>
 									</div>
 									<div className="testimonial-avatar">
