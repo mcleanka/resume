@@ -1,79 +1,72 @@
 import React from 'react'
-import { FaBitbucket, FaFacebookF, FaGithub, FaSlack, FaStackOverflow, FaTwitter } from 'react-icons/fa';
+
+import {
+	BrowserRouter as Router,
+	Link
+} from "react-router-dom";
+
+import { FaPlay } from 'react-icons/fa';
 import man from '../assets/images/man-01.png';
+import SocialLinks from '../database/SocialLinks';
 
 function Introduction() {
+	const Intro = {
+		header: "Hello, Welcome!!!",
+		description: "I'm Mclean Kasambala, professional web developer with long time experience in this field.",
+		links: [
+			{
+				name: "About Me",
+			},
+			{
+				href: "https://www.youtube.com/channel/UCkU30EjfzqaCeGZGU6qTtew",
+				icon: <FaPlay />,
+				class: "play-btn popup-video"
+			},
+		]
+	};
+
 	return (
-		<>
-			<section className="banner section-padding">
+		<Router>
+			<section className="banner section-padding pt-0">
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12 col-lg-7">
 							<ul className="list-inline social">
-								<li className="list-inline-item">
-									<a href="javascript">
-										<FaFacebookF />
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="javascript">
-										<FaSlack />
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="javascript">
-										<FaTwitter />
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="javascript">
-										<FaBitbucket />
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="javascript">
-										<FaStackOverflow />
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="javascript">
-										<FaGithub />
-									</a>
-								</li>
+								{
+									SocialLinks.map((link, index) => {
+										return (
+											<li className="list-inline-item" key={index}>
+												<Link target={"_blank"} to={{ pathname: link.url }}>{link.icon}</Link>
+											</li>
+										);
+									})
+								}
 							</ul>
 							<div className="align-middle">
-								<h1>I am Jonathan Doe</h1>
-								<p>
-									i,m Jonathan, professional web developer with long time
-									experience in this field
-								</p>
+								<h1>{Intro.header}</h1>
+								<p>{Intro.description}</p>
 								<ul className="list-inline">
-									<li className="list-inline-item">
-										<a href="javascriptportfolio">My Portfolio </a>
-									</li>
-									<li className="list-inline-item">
-										<a
-											className="play-btn popup-video"
-											href="https://www.youtube.com/watch?v=JI2r_WVRucU"
-										><i className="fa fa-play"></i>
-										</a>
-									</li>
+									{
+										Intro.links.map((link, key) => {
+											return (
+												<li className="list-inline-item" key={key}>
+													<Link target={"_blank"} className={link.class ?? null} to={{ pathname: link.href ?? null }}>{link.name ?? null} {link.icon ?? null}</Link>
+												</li>
+											)
+										})
+									}
 								</ul>
 							</div>
 						</div>
 						<div className="col-lg-5">
 							<div className="about_me_image wow fadeInUp" data-wow-delay="0.2s">
-								<img width={508}
-									height={729}
-									src={man}
-									className="attachment-full size-full"
-									alt="about me" />
+								<img width={508} height={400} src={man} className="attachment-full size-full" alt="..." />
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-		</>
+		</Router>
 	)
 }
 
