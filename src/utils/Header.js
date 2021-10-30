@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/images/logo.png';
+import $ from "jquery";
 
 function Header() {
 	return (
@@ -40,5 +41,15 @@ function Header() {
 		</header>
 	)
 }
+
+$(document).ready(() => {
+	$(window).on('scroll', function () {
+		if ($(document).scrollTop() > 80) {
+			$('.navbar').addClass('fixed-top');
+		} else {
+			$('.navbar').removeClass('fixed-top');
+		}
+	});
+})
 
 export default Header
