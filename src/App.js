@@ -23,8 +23,8 @@ function App() {
       <Introduction />
       <Services />
       <About />
-      <Portfolio />
       <Skills />
+      <Portfolio />
       <Pricing />
       <Statistics />
       <Testimonial />
