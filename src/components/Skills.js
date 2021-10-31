@@ -8,7 +8,7 @@ function Skills() {
 					<div className="row justify-content-center">
 						<div className="col-lg-5 my-auto wow fadeInUp" data-wow-delay="0.2s">
 							<div className="section-title mb-lg-0 mb-md-5" style={{ textAlign: "left" }}>
-								<span>i,m expert on</span>
+								<span>I'm expert on</span>
 								<h2>Let,s Work Together<span></span></h2>
 								<p>
 									Phasellus accumsan scelerisque dolor, quis mattis justo bibendum
