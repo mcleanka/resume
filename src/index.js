@@ -1,6 +1,5 @@
 import React from "react";
 import { render } from "react-dom";
-import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './assets/css/style.css';
