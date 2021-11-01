@@ -8,11 +8,12 @@ import {
 import { FaPlay } from 'react-icons/fa';
 import man from '../assets/images/man-01.png';
 import SocialLinks from '../database/SocialLinks';
+import Typical from 'react-typical';
 
 function Introduction() {
 	const Intro = {
 		header: "Hello, Welcome!!!",
-		description: "I'm Mclean Kasambala, professional web developer with long time experience in this field.",
+		description: "Get your professional, mobile friendly and secure website 💻",
 		links: [
 			{
 				name: "About Me",
@@ -31,6 +32,7 @@ function Introduction() {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12 col-lg-7">
+
 							<ul className="list-inline social">
 								{
 									SocialLinks.map((link, index) => {
@@ -42,9 +44,27 @@ function Introduction() {
 									})
 								}
 							</ul>
-							<div className="align-middle">
-								<h1>{Intro.header}</h1>
+
+							<div className="align-middle mt-5">
+
+								<Typical
+									loop={Infinity}
+									steps={[
+										"Welcome!!!",
+										1000,
+										"I'm Mclean Kasambala 😎",
+										1000,
+										"Full Stack Developer!📱",
+										1000,
+										"Computer Engineer!💻",
+										1000
+									]}
+									wrapper="h2"
+									className="h1"
+								/>
+
 								<p>{Intro.description}</p>
+
 								<ul className="list-inline">
 									{
 										Intro.links.map((link, key) => {

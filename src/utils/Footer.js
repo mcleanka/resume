@@ -4,6 +4,8 @@ import Logo from '../assets/images/logo.png';
 
 
 function Footer() {
+	const date = new Date();
+
 	return (
 		<footer className="text-center">
 			<div className="site-footer">
@@ -21,12 +23,6 @@ function Footer() {
 									/>
 								</a>
 							</div>
-							<p className="footer-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-								eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam, quis nostrud exe- rcitation ullamco
-								laboris nisi ut aliquip ex ea commodo consequat.
-							</p>
 							<div className="footer-social">
 								<ul className="list-inline">
 									<li className="list-inline-item">
@@ -48,8 +44,7 @@ function Footer() {
 				</div>
 			</div>
 			<div className="copyright-text">
-				Copyright © 2020 <a href="void()">Ami.Ke</a> All Rights Reserved by
-				ThemeBing.
+				© {date.getFullYear()} <a href="void()">Mclean.CK</a> All Rights Reserved.
 			</div>
 		</footer>
 	)

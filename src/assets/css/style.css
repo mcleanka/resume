@@ -263,7 +263,7 @@ body.admin-bar .fixed-top {
 	margin: 0 5px;
 }
 .banner {
-	background: url(../images/bg.jpg);
+	background: #23263a;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -272,8 +272,6 @@ body.admin-bar .fixed-top {
 .about_me_image {
 	margin: 0 auto;
 	overflow: hidden;
-}
-.about_me_image img {
 }
 .banner .social {
 	margin-top: 100px;

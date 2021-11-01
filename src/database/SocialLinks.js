@@ -4,7 +4,6 @@ import {
 	FaLinkedin,
 	FaSlack,
 	FaStackOverflow,
-	FaTwitter
 } from "react-icons/fa";
 
 // eslint-disable-next-line
@@ -16,10 +15,6 @@ export default [
 	{
 		url: "",
 		icon: <FaSlack />,
-	},
-	{
-		url: "",
-		icon: <FaTwitter />,
 	},
 	{
 		url: "https://bitbucket.org/mcleankasambala/",
