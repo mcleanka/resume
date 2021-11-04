@@ -23,11 +23,7 @@ function Services() {
 		<>
 			<section id="services" className="section-padding">
 
-				<SectionHeader
-					title="My Services"
-					subtitle="Services"
-					description="Lorem Ipsum is simply dummy text of the printing and typesetting
-									industry. Lorem Ipsum standard dummy text." />
+				<SectionHeader title="My Services" />
 
 				<div className="container">
 					<div className="row justify-content-center">

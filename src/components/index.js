@@ -9,7 +9,7 @@ import Statistics from "./Statistics";
 import Testimonial from "./Testimonial";
 import Partners from "./Partners";
 import Pricing from "./Princing";
-
+import Resume from "./Resume/Resume";
 
 export {
 	Introduction,
@@ -22,5 +22,6 @@ export {
 	Statistics,
 	Testimonial,
 	Partners,
-	Pricing
+	Pricing,
+	Resume
 }

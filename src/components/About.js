@@ -25,13 +25,8 @@ function About() {
 	return (
 		<>
 			<section id="about" className="section-padding alt-color">
-
-				.
 				<div className="container">
-					<SectionHeader
-						title="About Me"
-						description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text." />
-
+					<SectionHeader title="About Me" />
 					<div className="row">
 						<div className="col-lg-5 text-center wow fadeInLeft" data-wow-delay="0.2s">
 							<img src={man01} title="me-01" alt="me-01" />
