@@ -6,8 +6,9 @@ import {
   Introduction,
   Partners,
   Services,
-  Skills,
+  // Skills,
   Statistics,
+  Resume,
 } from "./components";
 import { BackToTop, Footer, Header } from "./utils";
 
@@ -17,9 +18,9 @@ function App() {
     <>
       <Header />
       <Introduction />
-      <Services />
       <About />
-      <Skills />
+      <Resume />
+      <Services />
       <Statistics />
       <Partners />
       <Contact />
