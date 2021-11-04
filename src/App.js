@@ -6,7 +6,6 @@ import {
   Introduction,
   Partners,
   Services,
-  // Skills,
   Statistics,
   Resume,
 } from "./components";
