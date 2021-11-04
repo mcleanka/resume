@@ -6,12 +6,4 @@ import './assets/css/style.css';
 import './assets/css/color.css';
 import App from './App';
 
-function Main() {
-  return (
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
-
-render(<Main />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
