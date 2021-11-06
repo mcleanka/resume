@@ -1,28 +1,24 @@
 import React from 'react'
+import { Link, BrowserRouter as Router } from 'react-router-dom';
+import NavLinks from '../database/NavLinks';
 
 function Nav() {
 	return (
-		<>
+		<Router>
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul id="menu-primary" className="navbar-nav ml-auto">
-					<li>
-						<a href="./" className="nav-link">Home</a>
-					</li>
-					<li>
-						<a href="#about" className="nav-link">About</a>
-					</li>
-					<li>
-						<a href="#services" className="nav-link">Services</a>
-					</li>
-					<li>
-						<a href="#skills" className="nav-link">Skills</a>
-					</li>
-					<li>
-						<a href="#contact" className="nav-link">Contact Me</a>
-					</li>
+					{
+						NavLinks.map((link, index) => {
+							return (
+								<li key={index}>
+									<Link to={link.url} className="nav-link">{link.label}</Link>
+								</li>
+							);
+						})
+					}
 				</ul>
 			</div>
-		</>
+		</Router>
 	)
 }
 
