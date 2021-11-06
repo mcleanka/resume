@@ -728,7 +728,7 @@ body.admin-bar .fixed-top {
 	width: 100%;
 	background: #23263a;
 	color: #fff;
-	padding: 20px 35px;
+	padding: 15px;
 	margin-bottom: 20px;
 	border-radius: 6px;
 }
@@ -737,7 +737,7 @@ body.admin-bar .fixed-top {
 	background: #23263a;
 	color: #fff;
 	width: 100%;
-	padding: 30px 35px;
+	padding: 15px;
 	margin-bottom: 20px;
 	height: 160px;
 	overflow: hidden;
