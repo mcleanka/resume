@@ -1,9 +1,9 @@
-import { FaApple, FaCamera, FaCodepen, FaFileVideo, FaGithub, FaSearchPlus } from "react-icons/fa";
+import { FaApple, FaCamera, FaCodeBranch, FaCodepen, FaFileVideo, FaSearchPlus } from "react-icons/fa";
 
 // eslint-disable-next-line
 export default [
 	{
-		icon: <FaGithub />,
+		icon: <FaCodeBranch />,
 		title: 'Web Development',
 		description: 'Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy',
 	},
