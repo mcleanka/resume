@@ -232,7 +232,7 @@ const Resume = (props) => {
 
 	return (
 		<div
-			className="resume-container screen-container fade-in"
+			className="resume-container screen-container fade-in lt-color"
 			id={props.id || ""}
 		>
 			<div className="resume-content">

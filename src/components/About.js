@@ -24,7 +24,7 @@ function About() {
 
 	return (
 		<>
-			<section id="about-me" className="section-padding alt-color">
+			<section id="about" className="section-padding">
 				<div className="container">
 					<SectionHeader title="About Me" />
 					<div className="row">
