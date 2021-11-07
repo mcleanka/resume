@@ -5,7 +5,6 @@ import {
   Contact,
   Introduction,
   Partners,
-  Services,
   Statistics,
   Resume,
 } from "./components";
@@ -17,7 +16,6 @@ function App() {
     <>
       <Header />
       <Introduction />
-      {/* <Services /> */}
       <About />
       <Resume />
       <Statistics />
